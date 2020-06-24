@@ -1,0 +1,15 @@
+#support{
+    display: flex;
+    background: #eff5f5;
+    padding-right: 150px;
+    padding-left: 150px;
+    height: 300px;
+    width: auto;
+}
+.supportConteiners{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+}
