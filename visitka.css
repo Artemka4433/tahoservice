@@ -1,7 +1,8 @@
 html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background: black;
     margin: 0;
     background-repeat: no-repeat;
@@ -9,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 
-header{
+header {
     z-index: 10;
     height: 70px;
     display: flex;
@@ -19,7 +20,8 @@ header{
     position: fixed;
     width: 100%;
 }
-.headerNav{
+
+.headerNav {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -34,11 +36,13 @@ header{
 
     color: #BBBABA;
 }
-a{
+
+a {
     text-decoration: none;
     height: 25px;
 }
-.redbtn{
+
+.redbtn {
     color: #ffffff;
     font-family: Montserrat;
     font-style: normal;
@@ -51,7 +55,8 @@ a{
     justify-content: center;
     background: red;
 }
-.headercon{
+
+.headercon {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -59,17 +64,20 @@ a{
     width: 234px;
     border: black solid 1px;
 }
-.headercon:hover{
+
+.headercon:hover {
     border: #BBBABA solid 1px;
 }
-.mainstyles{
+
+.mainstyles {
     font-family: Montserrat;
     font-style: normal;
     margin-left: 5%;
     display: flex;
     justify-content: space-around;
 }
-#upperext{
+
+#upperext {
     color: #ffffff;
     width: 100%;
     margin-top: 10%;
@@ -81,22 +89,25 @@ a{
     justify-content: center;
 
 }
-#centertext{
+
+#centertext {
     color: #ffffff;
     font-size: 11px;
     margin-top: 2%;
 }
 
-.shadowDiv{
-    width:600px;
-    height:450px;
+.shadowDiv {
+    width: 600px;
+    height: 450px;
 }
-#trucks{
+
+#trucks {
     width: 100%;
     height: auto;
     background-size: contain;
 }
-footer{
+
+footer {
     margin-top: 100px;
     margin-bottom: 10px;
     margin-left: 10%;
@@ -105,13 +116,15 @@ footer{
     flex-direction: row;
     justify-content: space-around;
 }
-.emailCon{
+
+.emailCon {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
     width: 40%;
 }
-.emailInputs{
+
+.emailInputs {
     width: 465px;
     color: #ffffff;
     background: black;
@@ -119,61 +132,102 @@ footer{
     margin-top: 10px;
     height: 67px;
     box-sizing: border-box;
-}#sendEmailBtn{
-     width: 467px;
-     height: 55px;
-     margin-top: 10px;
- }
-iframe{
+}
+
+#sendEmailBtn {
+    width: 467px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+iframe {
     opacity: 0.3;
 }
-.aboutUs{
+
+.aboutUs {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 0px;
 }
-.info{
+
+.info {
     color: #BBBABA;
 }
-.services{
+
+.services {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     color: #BBBABA;
 }
-#serviceContent{
+
+#serviceContent {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.servicesUpperContent{
+
+.servicesUpperContent {
     display: flex;
     justify-content: center;
 
 }
-.serviceItemContainer{
+
+.serviceItemContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#underService{
+
+#underService {
     margin-top: -20px;
     margin-bottom: 100px;
 }
-.shadowCon{
+
+.shadowCon {
     position: absolute;
     width: 313px;
     height: 327px;
-    box-shadow: inset 0px 0px 72px 21px rgba(0,0,0,0.75),
-    inset 0px 0px 72px 21px rgba(0,0,0,0.75),
-    inset 0px 0px 72px 21px rgba(0,0,0,0.75),
-    inset 0px 0px 72px 21px rgba(0,0,0,0.75),
-    inset 0px 0px 72px 21px rgba(0,0,0,0.35),
-    inset 0px 0px 72px 21px rgba(0,0,0,0.35);
+    box-shadow: inset 0px 0px 72px 21px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 72px 21px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 72px 21px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 72px 21px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 72px 21px rgba(0, 0, 0, 0.35),
+    inset 0px 0px 72px 21px rgba(0, 0, 0, 0.35);
 }
 
+@media screen and (orientation: portrait) {
+    #serviceContent {
+        flex-direction: column;
+    }
+
+    #sendMsg {
+        flex-direction: column;
+    }
+    .emailInputs{
+        width: 90%;
+    }
+    #sendEmailBtn{
+        width: 90%;
+    }
+    .emailCon{
+        width: 90%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.img{*/
+    /*    width: 100%;*/
+    /*    height: auto;*/
+    /*}*/
+    /*.serviceItemContainer{*/
+    /*    margin-left: 20%;*/
+    /*    width: 60%;*/
+    /*}*/
+}
 
 
 

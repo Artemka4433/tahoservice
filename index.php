@@ -37,19 +37,19 @@
         </div>
         <div id="serviceContent">
             <div class="serviceItemContainer">
-                <img src="img/servis1.png"/>
+                <img class="img" src="img/servis1.png"/>
                 <div class="shadowCon"></div>
                 <h3 class="aboutUs">Мойка</h3>
                 <h6 class="services">Мастера восстанавливают поверхность,<br/> но очень эффективный.</h6>
             </div>
             <div class="serviceItemContainer">
-                <img src="img/servis.png"/>
+                <img class="img" src="img/servis.png"/>
                 <div class="shadowCon"></div>
                 <h3 class="aboutUs">Детейлинг</h3>
                 <h6 class="services">Мастера восстанавливают поверхность,<br/> но очень эффективный.</h6>
             </div>
             <div class="serviceItemContainer">
-                <img src="img/servis2.png"/>
+                <img class="img" src="img/servis2.png"/>
                 <div class="shadowCon"></div>
                 <h3 class="aboutUs">СТО</h3>
                 <h6 class="services">Мастера восстанавливают поверхность,<br/> но очень эффективный.</h6>
