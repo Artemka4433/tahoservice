@@ -36,7 +36,7 @@
         </div>
         <div id="serviceContent">
             <div class="serviceItemContainer">
-                <img class="img" src="img/servis1.png"/>
+                <img class="img" src="img/speed.png"/>
                 <div class="shadowCon"></div>
                 <h3 class="aboutUs">Тахографы</h3>
                 <h6 class="services">Продажа тахографов и комплектующих к ним.</h6>
